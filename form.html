@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From</title>
+    <link rel="stylesheet" href="navber.css">
+</head>
+<style>
+    label{
+        display: block;
+        margin-top: 8px;
+    }
+</style>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="audio.html">Audio</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+</header>
+    <main>
+        <section>
+            <h2> Please Fillup the page</h2>
+            <form>
+                <label for="">Your Name:
+                    <input placeholder="Your Name" type="text">
+                </label>
+                <label for="">Your email:
+                    <input placeholder="Your email" type="email">
+                </label>
+                <label for="">Your Number:
+                    <input placeholder="Your Number" type="number">
+                </label>
+                <fieldset>
+                    <legend>Your fovourite game</legend>
+                    <label for="football">
+                        <input type="radio" name="game" id="football">Football
+                    </label>
+                    <label for="Cricket">
+                        <input type="radio" name="game" id="Cricket">Cricket
+                    </label>
+                    <label for="Boliball">
+                        <input type="radio" name="game" id="Boliball">Boliball
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Your area of</legend>
+                    <label for="Mymensing">
+                        <input type="radio" name="area" id="Mymensing">Mymensing
+                    </label>
+                    <label for="Sylhet">
+                        <input type="radio" name="area" id="Sylhet">Sylhet
+                    </label>
+                    <label for="Dhaka">
+                        <input type="radio" name="area" id="Dhaka">Dhaka
+                    </label>
+                </fieldset>
+                <label for="">
+                    <input type="reset" value="Reset">
+                </label>
+                <label for="">
+                    <input type="submit" value="Submit">
+                </label>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
